@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: lightgray;
+
+}
+
+.bodycontain{
+
+height:max-content;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+
+}
+
+.bodycontain img{
+    height: max-content;
+    width: 100%;
+}
+
+.maincontain{
+/* background: white; */
+height: 100%;
+width: 70%;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+}
+
+.firstdiv{
+/* background: blue; */
+height: 180px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+}
+
+.logocircle{
+    height: 120px;
+    width: 120px;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logocircle img{
+    height: 95px;
+    width: 95px;
+}
+
+.logotext{
+display: flex;
+margin-top: 5px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 15px;
+}
+
+.logotext li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.logotext a {
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+
+.seconddiv{
+/* background: red; */
+height: 130px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+margin-top: 45px;
+}
+
+.innersecond1{
+    /* background: yellow; */
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    /* font-weight: bold; */
+}
+
+.innersecond2{
+    /* background: yellow; */
+    height: 48%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: Verdana, 'Segoe UI', Tahoma, Geneva,  sans-serif;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+    /* font-weight: bold; */
+    margin-top: 2px;
+}
+
+.thirddiv{
+    margin-top: 25px;
+    /* background: red; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .thirddiv a{
+        text-decoration: none;
+    }
+
+    .innerthird1{
+        background: rgba(107, 19, 107, 0.918);
+        height: 50px;
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px black;
+        
+        
+    }
+    
+    .innerthird2 a{
+        margin:0px 5px;
+        color: blueviolet;
+    }
+
+    .innerthird3 a{
+            margin:0px 5px;
+            color: blueviolet;
+    
+
+
+    }
+
+    .innerthird2{
+        /* background: blue; */
+        height: 25px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* align-items: center; */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 20px;
+        
+    }
+
+
+
+    .innerthird3{
+        /* background: yellow; */
+        height: 25px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 5px;
+    
+    }
+
+
+.githubwindow{
+    height: 600px;
+    width: 100%;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.226);
+}
+
+
+.githubwindow img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.fifthdiv{
+    height: 250px;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerfifth1{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+    
+}
+
+.innerfifth1 img{
+    height: 250px;
+    width: 350px;
+}
+
+.innerfifth2{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    /* background-color: blue; */
+    flex-direction: column;
+}
+
+
+.fifthheading{
+    /* background: yellow; */
+    /* height: 50px; */
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    /* text-align: center; */
+    /* line-height: 20px; */
+
+
+}
+
+.fifthbody{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+    /* line-height: 18px; */
+
+}
+
+
+.sixthdiv{
+    height: 180px;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    /* background-color: aqua;   */
+}
+
+
+.sixthbody1{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    /* background-color: red;   */
+    margin: 2%;
+    flex-direction: column;
+}
+
+
+.innersixth1{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+
+}
+
+.innersixth1 img{
+    height: 35px;
+    width: 35px;
+    
+}
+
+
+.innersixth2{
+    height: 25px;    
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.innersixth3{
+    height: 40px;    
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+.seventhdiv{
+    height: 40px;
+    width: 100%;
+    /* background: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.been_built{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+}
+
+.seventhdiv a{
+    text-decoration: none;
+
+}
+
+
+.eighthdiv{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.linediv{
+    border-bottom: 1px solid rgba(211, 211, 211, 0.24);
+    height: 10px;
+    width: 120px;
+    
+}
+
+.ninthdiv{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+}
+
+.ninthdiv a{
+text-decoration: none;
+color: blueviolet;
+}
+
+.ninthdiv li{
+    list-style: none;
+    margin-left: 25px;
+}
+
+.tenthdiv{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+    color: rgba(173, 173, 173, 0.288);
+}
